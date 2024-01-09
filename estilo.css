@@ -1,29 +1,71 @@
 #titulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:hotpink;
-    margin-left: 7%;
+    color:rgba(122, 17, 17, 0.749);
+    margin-left: 1%;
+    position: relative;
+    top: -35px;
 }
 #subtitulo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:deeppink;
-    margin-left: 10%;
+    color:rgb(53, 57, 160);
+    margin-left: 13%;
+    position: relative;
+    top: -14px;
 }
+
 body{
-    background-image: url(meninass.webp);
+    background-image: url(https://i.pinimg.com/originals/00/db/2e/00db2e51ea28e1225dabbca572675797.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: rgb(219, 185, 206);
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
-    color: rgb(3, 3, 2);
-    margin-left: 36%;
-    margin-top: 2%;
+    color: rgb(236, 236, 228);
+    margin-left: 40%;
+    margin-top: 4%;
     justify-content: center;
 }
 
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0;
 
+}
+input,select,textarea,button{
+    border-radius: 12px;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(239, 235, 227);
+    display: block;
+}
+
+.form{
+  
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    background-position: center;
+    top: 95%;
+    left: 50%;
+    margin-right: 62%;
+    
+}
+
+.botao{
+    font-size: 1.2em;
+    background: deeppink;
+    border: 0;
+    margin-bottom: 1em;
+    color: aqua;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
